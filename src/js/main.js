@@ -5,6 +5,9 @@ window.addEventListener('message', function(event) {
         iframe.height = event.data;
         console.log(iframe.height)
     }
+
+    console.log(iframe.height)
+    console.log(event.origin)
 });
 
 
